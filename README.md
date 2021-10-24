@@ -28,8 +28,11 @@
   ## Installation 💾
    
   `npm init`
+
   `npm mysql2`
+
   `npm i sequelize`
+
   `npm install dotenv`
 
   ## Usage 🎛️
@@ -40,8 +43,11 @@
   Enter password when prompted
 
   `source db/schema.sql`
+
   `quit`
+
   `npm run seed`
+  
   `npm start`
 
   ## Contributing 👨‍💻
