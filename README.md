@@ -15,8 +15,8 @@
      
   ## Description 🗺️
    An application built using Express.js designed to demonstrate the architecture of e-commerce sites.
-
-  📽️ A screencastify recording of the application in action can be found [here](./images/Link%20to%20screencast%20file.txt)
+   
+   ![Link to screencast is available here](./images/GET%routes-ALL.gif)
 
   ## Table of Contents
   - [Description](#description)
@@ -47,7 +47,7 @@
   `quit`
 
   `npm run seed`
-  
+
   `npm start`
 
   ## Contributing 👨‍💻
