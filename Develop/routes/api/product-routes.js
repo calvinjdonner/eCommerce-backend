@@ -18,7 +18,7 @@ router.get('/', (req, res) => {
         {
           model: Tag,
           attributes: ['tag_name'],
-          as: 'tagged_products'
+          //as: 'tagged_products'
         }
       ]
     })
@@ -52,7 +52,7 @@ router.get('/:id', (req, res) => {
     })
     .then(dbProductData => {
       if (!dbProductData) {
-        res.status(404).json({ message: 'No product foudn with this id' });
+        res.status(404).json({ message: 'No product found with this id' });
         return;
       }
       res.json(dbProductData);
