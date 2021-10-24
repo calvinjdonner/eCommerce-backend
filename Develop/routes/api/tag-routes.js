@@ -6,12 +6,13 @@ const { Tag, Product, ProductTag } = require('../../models');
 router.get('/', (req, res) => {
   Tag.findAll(
     {
-      include: {
+      include: [
+        {
         model: Product,
-       attributes: ['product_name', 'price', 'stock', 'category_id']
+        attributes: ['product_name', 'price', 'stock', 'category_id']
       }
-    }
-  )
+    ]
+  })
   .then(dbTagData => res.json(dbTagData))
   .catch(err => {
     console.log(err);
@@ -24,12 +25,13 @@ router.get('/:id', (req, res) => {
   // be sure to include its associated Product data
   Tag.findOne(
     {
-      include: {
+      include: [
+      {
         model: Product,
         attributes: ['product_name', 'price', 'stock', 'category_id']
       }
-    }
-  )
+    ]
+})
   .then(dbTagData => res.json(dbTagData))
   .catch(err => {
     console.log(err);
