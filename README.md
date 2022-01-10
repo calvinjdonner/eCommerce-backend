@@ -16,7 +16,7 @@
   ## Description 🗺️
    An application built using Express.js designed to demonstrate the architecture of e-commerce sites.
    
-   ![Link to screencast is available here](./images/GET%routes-ALL.gif)
+   <img src="./GET%routes-ALL.gift" alt="Project GIF" width="250" height="250"/>
 
   ## Table of Contents
   - [Description](#description)
