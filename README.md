@@ -14,7 +14,7 @@
 </p>
      
   ## Description 🗺️
-   An application built using Express.js designed to demonstrate the architecture of e-commerce sites. GIFs are below with full videos in the images folder within the develop folder [a relative link](categories.webm)
+   An application built using Express.js designed to demonstrate the architecture of e-commerce sites. GIFs are below with full videos in the images folder within the develop folder [a relative link](./images/categories.webm)
    
   <img src="./categories.gif" alt="Categories GIF" width="250" height="250"/>
   <img src="./products.gif" alt="products GIF" width="250" height="250"/>
